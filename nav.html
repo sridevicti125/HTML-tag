@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>It is used to give ttile of the webpage</title>
+        <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
+        <style>
+            .navbar
+            {
+                width: 100%;
+                background-color:#D6EEEE;
+                overflow: auto;
+                padding: 2px;
+                color: brown;
+            }
+            .navbar a:hover
+            {
+                background-color: pink;
+            }
+            .active{
+                background-color: orange;
+            }
+            .navbar1.active{
+                background-color:yellow ;
+            }
+            h2{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div  class="navbar">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                           <a class="active" href="#tables"><i class="tables"></i> Tables&Lists</a>&nbsp;&nbsp;&nbsp;
+                           <a href="#formating tags"><i class="formatting tags"></i>Format_tags</a>&nbsp;&nbsp;&nbsp;
+                           <a href="#links"><i class="links"></i> Links</a>&nbsp;&nbsp;&nbsp;
+                           <a href="#frames&forms"><i class="forms"></i>Frames&Forms</a>&nbsp;&nbsp;&nbsp;
+                           <a href="#image"><i class="image"></i> HTML Image</a>&nbsp;&nbsp;&nbsp;
+                           <a href="#video&audio"><i class="video&audio"></i> video&audio</a>
+                        </td>
+                    </tr>
+              </tbody>
+          </table>
+        </div>
+        <p>
+            This paragraph
+            contains a lot of spaces
+            in the source code,
+            but the browser
+            ignores it.
+        </p><br>
+        <p>BR tag is used as line break</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr><!--this is a horizontal line break-->
+        <pre>
+           The pre tag preserves both spaces and line breaks:
+           London is capital city of england.
+         
+           It is most popular city in the united kings.
+         
+           metropolitan area of over 13 million inhabitants.
+            
+       </pre><hr>
+       <div class="navbar1">
+         <div class="formating_tags">
+             <a class="active" name="formating tags"></a><br><br><br>
+             <h2>Formatting Tags</h2>
+             <p><b>Bold text.</b></p>
+             <p><strong>Important text</strong></p>
+             <p><i>Italic text</i></p>
+             <p><em>Emphasized text</em></p>
+             <p><mark>Marked text</mark></p>
+             <p><small>Smaller text</small></p>
+             <p><del>Deleted text</del></p>
+             <p><ins>Inserted text</ins></p>
+             <p><sub>Subscript text</sub></p>
+             <p><sup>Superscript text </sup></p><hr>
+         </div>
+      </div>
+        <p>Here is a quote from WWF's website:</p>
+
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+           For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote> <hr>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+        <p><abbr title="World Health Organization">WHO</abbr>
+        <address>
+            Written by John Doe.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+          </address><hr>
+          <bdo dir="rtl">This line will be written from right to left</bdo><hr>
+             
+             <div class="links">
+                 <a name="links"></a><br><br>
+                 <h1>HTML Links</h1>
+                 <p><a href="https://www.youtube.com">click Here</a></p>
+ 
+                 <h2>The target Attribute</h2>
+                 <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+ 
+                 <h2>Absolute URLs</h2>
+                 <p><a href="https://www.w3.org/">W3C</a></p>
+                 <p><a href="https://www.google.com/">Google</a></p>
+            
+                 <h2>Relative URLs</h2>
+                 <p><a href="https://unsplash.com/s/photos/architecture">Html Images</a></p>
+                 <p><a href="https://byjus.com/">Tutorial</a></p>
+ 
+                 <h2>Image as a Link</h2>
+                 <p>The image below is a link. Try to click on it.</p>
+                 <a href="E:\Web-Development\pic.html"><img src="pic1.jpg" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+ 
+                 <h2>Link to an Email Address</h2>
+                 <p><a href="mailto:sri12@example.com">Send email</a></p>
+ 
+                 <h2>Button as a Links</h2>
+                 <button onclick="window.location.href='https://w3docs.com';"> w3schools</a></button>
+            </div><hr> 
+ 
+            <div class="image">
+              <a name="image"></a>
+              <h2>HTML Image</h2>
+              <img src="pic2.jpg" alt="doll" width="300" height="300">
+              <h2>Images on Another Server</h2>
+              <img src="C:\Users\My pc\Documents\Web_ Development\pic3.jpeg" alt="W3Schools.com" style="width:104px;height:142px;">
+            
+              
+    
+ 
+            <div class="table">
+              <a name="tables"></a>
+              <h2>A basic HTML table</h2>
+              <table style="width:100%" border="3">
+                  <colgroup>
+                      <col span="2" style="background-color: #D6EEEE">
+                  </colgroup>
+                  <caption>company info</caption>
+                  <tr>
+                      <th colspan="2">Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                  </tr>
+                  <tr>
+                      <td rowspan="2">Tech Zone</td>
+                      <td>Island trading</td>
+                      <td>Helen Bennett</td>
+                  </tr>
+                  <tr>
+                      <td>Ernst Handel</td>
+                      <td>Roland mendel</td>
+                      <td>Astrilia</td>
+                  </tr>
+               </table>
+           
+               <h2>An unordered HTML list</h2>
+                <ul>
+                   <li>Coffee</li>
+                   <li>Tea</li>
+                   <li>Milk</li>
+                </ul> 
+               <h2>An ordered HTML list</h2>
+                <ol>
+                   <li>rice</li>
+                   <li>pappu</li>
+                   <li>samber</li>
+               </ol>
+               <h2>A Description List</h2>
+                <dl>
+                   <dt>data term in dl</dt>
+                   <dd>defines data definition</dd>
+                   <dt>rice</dt>
+                   <dd>- white color</dd>
+               </dl>
+           </div><hr>
+ 
+           <p>This is an inline span <span style="border: 1px solid black">Hello World</span> element inside a paragraph.</p>
+ 
+           <div style="background-color: pink;color:black;padding:20px;">
+               <h2>London</h2>
+               <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+               <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+           </div> 
+ 
+           <h2>Using class attribute</h2>
+           <div class="city">
+               <h3>Andrapradesh</h3>
+               <p>Andrapradesh is the capital of amaravathi .</p>
+           </div>
+           <h2>Using id Attribute</h2>
+           <h1 id="myHeader">My Header</h1><hr>
+ 
+           <div class="frames&forms">
+              <a name="frames&forms"></a>
+              <h2>HTML Iframes</h2>
+              <iframe width="420" height="345" src="https://youtu.be/jh3Ow7d4LtA">click here</a>
+              </iframe><hr>
+         
+ 
+               <h2>forms in HTML</h2>
+               <form action="" target="" method="">
+                    <!-- action :The action attribute defines the action to be performed when the form is submitted.
+                    target : The target attribute specifies where to display the response that is received after submitting the form.
+                    method: The method attribute specifies the HTTP method to be used when submitting the form data.-->
+                   <label>Text box</label><input type="text"><br>
+                   <label>To enter numbers</label> <input type="number"><br>
+                   <label>Checkbox box</label> <input type="checkbox"><br>
+                   <label>Password</label> <input type="password"><br> 
+                   <label>Calender Dates <input type="date"><br>
+                    <label>Email</label><input type="email"><br>
+                    <label>Submit button</label> <input type="submit"><br>
+                    <label>Reset button</label><input type="reset"><br>
+                    <label>search box</label><input type="search"><br>
+                    <label></label> <input type="tel"><br>
+                    <label>select time</label><input type="time"><br>
+                    <button> This is button</button>
+                </form><hr>
+                  <form action="/action_page.php">
+                     <label for="bike">Choose a bike:</label>
+                    <select id="bike" name="Hero honda">
+                       <option value="Tvs">Tvs motor</option>
+                       <option value="Hero">Hero motor</option>
+                       <option value="suziki">suziki</option>
+                       <option value="Ducati">Ducati</option>
+                   </select>
+                    <input type="submit"><br><br>
+                    <textarea name="message" rows="10" cols="30">The rat was eating in carrot.</textarea>
+                    <br><br>
+                    <input type="submit">
+                 </form><hr>
+                  <h2>Grouping Form Data with Fieldset</h2>
+                  <form action="/action_page.php">
+                    <fieldset>
+                       <legend>Personal Details:</legend>
+                       <label for="fname">First name:</label><br>
+                       <input type="text" id="fname" name="fname" value="punarvi"><br>
+                       <label for="lname">Last name:</label><br>
+                       <input type="text" id="lname" name="lname" value="s"><br><br>
+                       <input type="submit" value="Submit">
+                   </fieldset>
+                </form><hr>
+            </div>
+            <div class="audio">
+               <a name="audio"></a>
+               <audio controls>
+                   <source src="C:\Users\My pc\Downloads\video2.mp4" type="audio/ogg">
+               </audio>
+              </body>
+              </html>
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
